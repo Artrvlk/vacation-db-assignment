@@ -1,6 +1,6 @@
 # ⛷️ Vacation & Skipass Management Database
 
-A fully Dockerized MariaDB project for managing vacation reservations, ski packages, and skipasses. Made by @Artrvlk and @nemedis21
+A complete Dockerized MariaDB project for managing vacation reservations, ski packages, and skipasses. Made by @Artrvlk and @nemedis21
 
 ---
 
