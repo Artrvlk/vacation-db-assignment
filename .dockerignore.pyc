@@ -1,8 +1,0 @@
-*.pyc
-__pycache__/
-.viminfo
-*.log
-*.tmp
-*.swp
-.DS_Store
-.git
