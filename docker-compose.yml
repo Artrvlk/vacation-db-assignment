@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  db:
+    image: mariadb:latest
+    container_name: vacation_db
+    environment:
+      MARIADB_ROOT_PASSWORD: rootpass
+      MARIADB_DATABASE: vacation
+      MARIADB_USER: vacation_user
+      MARIADB_PASSWORD: userpass
+    ports:
+      - "3306:3306"
+
+  setup:
+    build: .
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+    command: python init_db.py
+
+  query:
+    build: .
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+    command: python query_driver.py
