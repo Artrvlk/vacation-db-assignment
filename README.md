@@ -15,14 +15,14 @@ A fully Dockerized MariaDB project for managing vacation reservations, ski packa
 
 ## 📁 Project Structure
 vacation-db-assignment/
-├── docker-compose.yml       # Defines db, setup, query services
-├── Dockerfile               # Python container with MariaDB connector
-├── init_db.py               # Loads schema and sample data
-├── schema.sql               # Table definitions (Customer, Reservation, etc.)
-├── data.sql                 # 10+ sample rows per table
-├── queries.sql              # 6 business SQL queries
-├── query_driver.py          # Executes queries and prints results
-└── README.md                # Project documentation
+├── docker-compose.yml     # Defines db, setup, query services
+├── Dockerfile             # Python container with MariaDB connector
+├── init_db.py             # Loads schema and inserts sample data
+├── schema.sql             # Table definitions
+├── data.sql               # 10+ sample rows per table
+├── queries.sql            # 6 business queries
+├── query_driver.py        # Executes queries and prints results
+└── README.md              # Project instructions              # Project documentation
 
 ## 🚀 How to Run This Project
 
