@@ -28,8 +28,6 @@ vacation-db-assignment/
 
 ## 🚀 How to Run This Project
 
-> No need to install Python or MariaDB manually — just use Docker!
-
 ### 1. Clone the Repository
 
 ```bash
