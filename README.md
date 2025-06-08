@@ -1,7 +1,7 @@
 # ⛷️ Vacation & Skipass Management Database - Assignment 2.
 
-A complete Dockerized MariaDB project for managing vacation reservations, ski packages, and skipasses. Made by @Artrvlk (Artur Volkov) and @nemedis21 (Timur Selivanov)
-
+A complete Dockerized MariaDB project for managing vacation reservations, ski packages, and skipasses.
+Made by @Artrvlk (Artur Volkov, Matriculation Number: [52403459]) and @nemedis21 (Timur Selivanov, Matriculation Number: [52413937])
 ---
 
 ## 🧰 Technologies Used
