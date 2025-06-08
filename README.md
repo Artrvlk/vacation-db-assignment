@@ -60,14 +60,17 @@ This repository contains a  project for managing vacation reservations and skipa
 
 ## 📁 Project Structure
 
+```text
 timescale/
-├── pg_schema.sql            # PostgreSQL schema definitions
-├── pg_data.sql              # Sample data inserts
-├── create_hypertable.sql    # Hypertable creation script
-├── simulate_scans.py        # Python script simulating skipass scans
-├── continuous_aggregate.sql # Continuous aggregate view definition
-├── query_aggregates.py      # Python query script for aggregates
-├── recreate_hypertable.sql  # (Optional) Script to reset hypertable
+├── pg_schema.sql             # PostgreSQL schema definitions
+├── pg_data.sql               # Sample data inserts
+├── create_hypertable.sql     # Hypertable creation script
+├── simulate_scans.py         # Python script simulating skipass scans
+├── continuous_aggregate.sql  # Continuous aggregate view definition
+├── query_aggregates.py       # Python query script for aggregates
+├── recreate_hypertable.sql   # (Optional) Script to reset hypertable
+```
+
 
 ## Technologies Used
 	•	TimescaleDB for time-series data management
